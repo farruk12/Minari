@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from './Logo';
 import Icons from './Icons';
 import LanguageSelector from './LanguageSelector';
-import './header.css';
+import './Header.css';
 
 function Header() {
   return (

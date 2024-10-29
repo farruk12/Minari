@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import BillingDetails from './BillingDetails';
-import PaymentInstructions from './PaymentInstructions';
+import Payment from './Payment';
 import './CheckoutPage.css';
 
 const Checkout = () => {
@@ -71,7 +71,7 @@ const Checkout = () => {
             handleBillingChange={handleBillingChange}
             errors={errors}
           />
-          <PaymentInstructions
+          <Payment
             mpesaCode={mpesaCode}
             handleMpesaCodeChange={handleMpesaCodeChange}
             error={errors.mpesaCode}
