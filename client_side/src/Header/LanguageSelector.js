@@ -1,12 +1,11 @@
 import React from 'react';
-import kenyaFlag from './kenya-flag.jpeg';
+//import kenyaFlag from './kenya-flag.jpeg';
 import './LanguageSelector.css';
 
 function LanguageSelector() {
   return (
     <div className="language-selector">
-      <img src={kenyaFlag} alt="Kenya Flag" className="flag-icon" />
-      <span>Kenya | English</span>
+      <h1>MINARI HOMES</h1>
     </div>
   );
 }

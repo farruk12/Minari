@@ -11,7 +11,6 @@ import Login from './Profile/Login.js';
 import Signup from './Profile/Signup.js';
 import AccountPage from './Profile/AccountPage.js';
 import AuthProvider from "./Profile/AuthProvider.js";
-import AdminPage from './Admin/adminPage.js';
 import PrivateRoute from './PrivateRoute.js';
 import Footer from './Footer/footer.js';
 
@@ -30,9 +29,6 @@ function App() {
     <Router>
       <AuthProvider>
         <Routes>
-          {/* Admin route without header */}
-          <Route path="/adminPage" element={<AdminPage />} />
-
           {/* Regular routes with header */}
           <Route element={<Layout />}>
             <Route path="/" element={

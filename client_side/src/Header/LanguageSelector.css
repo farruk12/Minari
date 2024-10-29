@@ -5,7 +5,15 @@
     cursor: pointer;
     font-size: 24px;
 }
-  
+
+.language-selector h1 {
+    font-family: 'Avenir', 'Proxima Nova', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+
+}
+
 .flag-icon {
     width: 50px;
     height: 40px;
