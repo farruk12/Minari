@@ -12,276 +12,333 @@ function Collection({ titles, isFullView = false }) {
 
     const collections = [
         {
-            title: "Everyday Abayas",
+            title: "LIVING ROOM",
             products: [
                 {
                     id: 1,
-                    name: "Peach Abaya",
-                    price: "KSh 1,600",
-                    image: `${process.env.PUBLIC_URL}/abayas/peach abaya.jpeg`,
+                    name: "modular sofa",
+                    price: "KSh 10,600",
+                    image: "sofa (2).jpg",
                     reviews: 4,
                     rating: 5
                 },
                 {
                     id: 2,
-                    name: "Macha Green abaya",
-                    price: "KSh 1,200",
-                    image: "/abayas/macha green abaya.jpeg",
+                    name: "Fabric sofa",
+                    price: "KSh 11,200",
+                    image: "sofa (1).jpg",
                     reviews: 3,
                     rating: 4
                 },
                 {
                     id: 3,
-                    name: "Brown & black abaya",
-                    price: "KSh 1,700",
-                    image: "/abayas/brown black abaya.jpeg",
-                    reviews: 2,
-                    rating: 5
+                    name: "Cloud sofa",
+                    price: "KSh 34,700",
+                    image: "sofa (3).jpg",
+                    reviews: 3,
+                    rating: 6
                 },
                 {
                     id: 4,
-                    name: "Floral black abaya",
-                    price: "KSh 4,800",
-                    image: "/abayas/floral black abaya.jpeg",
+                    name: "green sofa",
+                    price: "KSh 24,800",
+                    image: "sofa (4).jpg",
                     reviews: 5,
                     rating: 4
                 },
                 {
                     id: 5,
-                    name: "black stars abaya",
+                    name: "Grey clody sofa",
                     price: "KSh 1,800",
-                    image: "/abayas/stars black and white abaya.jpeg",
+                    image: "sofa (5).jpg",
                     reviews: 3,
                     rating: 5
                 },
                 {
-                    id: 5,
-                    name: "Cream",
-                    price: "KSh 1,800",
-                    image: "/abayas/everyday abayas (1).jpeg",
-                    reviews: 4,
-                    rating: 5
-                }
-            ]
-        },
-        {
-            title: "Summer Collection",
-            products: [
-                {
                     id: 6,
-                    name: "Beige Abaya",
-                    price: "KSh 2,500",
-                    image: "/abayas/beige abaya.jpeg",
-                    reviews: 1,
+                    name: "white modular sofa",
+                    price: "KSh 28,800",
+                    image: "sofa 6.jpg",
+                    reviews: 4,
                     rating: 5
                 },
                 {
                     id: 7,
-                    name: "Cornflower Abaya",
-                    price: "KSh 1,300",
-                    image: "/abayas/cornFlower blue.jpeg",
-                    reviews: 0,
-                    rating: 0
+                    name: "black mod sofa",
+                    price: "KSh 28,800",
+                    image: "sofa 1 (2).jpg",
+                    reviews: 4,
+                    rating: 5
                 },
                 {
                     id: 8,
-                    name: "Green Abaya",
-                    price: "KSh 2,800",
-                    image: "/abayas/green abaya.jpeg",
-                    reviews: 0,
-                    rating: 0
+                    name: "purple sofa",
+                    price: "KSh 28,800",
+                    image: "sofa 1 (1).jpg",
+                    reviews: 4,
+                    rating: 5
                 },
                 {
                     id: 9,
-                    name: "Floral Black Abaya",
-                    price: "KSh 1,900",
-                    image: "/abayas/floral black abaya.jpeg",
+                    name: "maroon sofa",
+                    price: "KSh 28,800",
+                    image: "sofa 1 (3).jpg",
+                    reviews: 4,
+                    rating: 5
+                },
+                {
+                    id: 10,
+                    name: "CornFlower sofa",
+                    price: "KSh 28,800",
+                    image: "sofa 1 (4).jpg",
+                    reviews: 4,
+                    rating: 5
+                }
+            ]
+        },
+        {
+            title: "BEDROOM",
+            products: [
+                {
+                    id: 11,
+                    name: "Wooden bed",
+                    price: "KSh 87,500",
+                    image: "Beds (1).jpg",
+                    reviews: 1,
+                    rating: 5
+                },
+                {
+                    id: 12,
+                    name: "Jungle Green Bed",
+                    price: "KSh 61,300",
+                    image: "Beds (2).jpg",
                     reviews: 0,
                     rating: 0
                 },
                 {
-                    id: 10,
-                    name: "black abaya",
+                    id: 13,
+                    name: "Beige bed",
+                    price: "KSh 72,800",
+                    image: "Beds (3).jpg",
+                    reviews: 0,
+                    rating: 0
+                },
+                {
+                    id: 14,
+                    name: "Inbuilt drawer Bed",
+                    price: "KSh 1,900",
+                    image: "Beds (5).jpg",
+                    reviews: 0,
+                    rating: 0
+                },
+                {
+                    id: 15,
+                    name: "offWhite Bed",
                     price: "KSh 2,600",
-                    image: "/abayas/summer abayas (1).jpeg",
+                    image: "Beds (4).jpg",
                     reviews: 2,
                     rating: 1
                 },
                 {
-                    id: 10,
-                    name: "sky-blue abaya",
+                    id: 16,
+                    name: "Brown wood bed",
                     price: "KSh 3,600",
-                    image: "/abayas/summer abayas (2).jpeg",
+                    image: "Beds (7).jpg",
                     reviews: 3,
-                    rating: 4
-                }
-            ]
-        },
-        {
-            title: "Professional Abayas",
-            products: [
-                {
-                    id: 11,
-                    name: "white and emerald",
-                    price: "KSh 1,200",
-                    image: "/abayas/3 pieces white and emerald .jpeg",
-                    reviews: 2,
-                    rating: 4
-                },
-                {
-                    id: 12,
-                    name: "brown set abaya",
-                    price: "KSh 1,300",
-                    image: "/abayas/3 pieces brown abaya.jpeg",
-                    reviews: 5,
-                    rating: 5
-                },
-                {
-                    id: 13,
-                    name: "white and green abaya",
-                    price: "KSh 1,500",
-                    image: "/abayas/3 pieces white and green abaya.jpeg",
-                    reviews: 5,
-                    rating: 5
-                },
-                {
-                    id: 14,
-                    name: "black and white abaya",
-                    price: "KSh 1,400",
-                    image: "/abayas/black and white.jpeg",
-                    reviews: 4,
                     rating: 4
                 },
                 {
                     id: 15,
-                    name: "white and latte abaya",
-                    price: "KSh 1,600",
-                    image: "/abayas/stars 3 pieces white and green abaya.jpeg",
-                    reviews: 5,
-                    rating: 5
-                }
+                    name: "white Bed",
+                    price: "KSh 2,600",
+                    image: "Beds (6).jpg",
+                    reviews: 2,
+                    rating: 1
+                },
+                {
+                    id: 15,
+                    name: "Gray Bed",
+                    price: "KSh 2,600",
+                    image: "Beds (8).jpg",
+                    reviews: 2,
+                    rating: 1
+                },
             ]
         },
         {
-            title: "Occasion Abayas",
+            title: "HOME DECOR",
             products: [
                 {
                     id: 16,
-                    name: "baby blue & white",
-                    price: "KSh 2,500",
-                    image: "/abayas/occasion abaya  (1).jpeg",
-                    reviews: 5,
-                    rating: 5,
-                    description: "Elegant baby blue and white abaya perfect for special occasions. Features a flowing design with intricate detailing."
+                    name: "Lamp",
+                    price: "KSh 1,200",
+                    image: "Decor (1).jpg",
+                    reviews: 2,
+                    rating: 4
                 },
                 {
                     id: 17,
-                    name: "Beige abaya",
-                    price: "KSh 1,900",
-                    image: "/abayas/occasion abaya  (3).jpeg",
+                    name: "Mirror",
+                    price: "KSh 1,300",
+                    image: "Decor (2).jpg",
+                    reviews: 5,
+                    rating: 5
+                },
+                {
+                    id: 18,
+                    name: "Globe light",
+                    price: "KSh 1,500",
+                    image: "Decor (3).jpg",
+                    reviews: 5,
+                    rating: 5
+                },
+                {
+                    id: 19,
+                    name: "Vases",
+                    price: "KSh 1,400",
+                    image: "Decor (4).jpg",
                     reviews: 4,
                     rating: 4
                 },
                 {
-                    id: 18,
-                    name: "white and blue",
-                    price: "KSh 2,900",
-                    image: "/abayas/occasion abaya  (5).jpeg",
+                    id: 20,
+                    name: "A cute stand",
+                    price: "KSh 1,600",
+                    image: "Decor (5).jpg",
+                    reviews: 5,
+                    rating: 5
+                },
+                {
+                    id: 19,
+                    name: "Black Vases",
+                    price: "KSh 1,400",
+                    image: "Decor (6).jpg",
                     reviews: 4,
                     rating: 4
                 },
                 {
                     id: 19,
-                    name: "Purple abaya",
-                    price: "KSh 2,800",
-                    image: "/abayas/occasion abaya  (2).jpeg",
-                    reviews: 2,
-                    rating: 2
+                    name: "Beige Vases",
+                    price: "KSh 1,400",
+                    image: "Decor (7).jpg",
+                    reviews: 4,
+                    rating: 4
                 },
                 {
-                    id: 20,
-                    name: "Sand beige abaya",
-                    price: "KSh 1,000",
-                    image: "/abayas/occasion abaya  (4).jpeg",
-                    reviews: 3,
-                    rating: 3
+                    id: 19,
+                    name: "Brown Vases",
+                    price: "KSh 1,400",
+                    image: "Decor (8).jpg",
+                    reviews: 4,
+                    rating: 4
+                },
+                {
+                    id: 19,
+                    name: "White stats",
+                    price: "KSh 1,400",
+                    image: "Decor.jpg",
+                    reviews: 4,
+                    rating: 4
                 }
             ]
         },
         {
-            title: "Jewelry",
+            title: "OFFICE",
             products: [
                 {
+                    id: 20,
+                    name: "Office chair",
+                    price: "KSh 2,500",
+                    image: "Office (1).jpg",
+                    reviews: 5,
+                    rating: 5,
+                    description: "Elegant baby blue and white  perfect for special occasions. Features a flowing design with intricate detailing."
+                },
+                {
                     id: 21,
-                    name: "naimah jewels 1",
-                    price: "KSh 3,200",
-                    image: "/jewel/jewel (1).jpeg",
+                    name: "Office accessories",
+                    price: "KSh 1,900",
+                    image: "Office (2).jpg",
                     reviews: 4,
                     rating: 4
                 },
                 {
                     id: 22,
-                    name: "naimah jewels 2",
-                    price: "KSh 3,500",
-                    image: "/jewel/jewel (2).jpeg",
-                    reviews: 5,
-                    rating: 5
+                    name: "Organizer",
+                    price: "KSh 2,900",
+                    image: "Office (3).jpg",
+                    reviews: 4,
+                    rating: 4
                 },
                 {
                     id: 23,
-                    name: "naimah jewels 3",
-                    price: "KSh 3,000",
-                    image: "/jewel/jewel (3).jpeg",
+                    name: "can",
+                    price: "KSh 1,000",
+                    image: "Office (5).jpg",
                     reviews: 3,
                     rating: 3
                 },
                 {
                     id: 24,
-                    name: "naimah jewels 4",
-                    price: "KSh 4,000",
-                    image: "/jewel/jewel (4).jpeg",
-                    reviews: 5,
-                    rating: 5
+                    name: "office stand",
+                    price: "KSh 2,900",
+                    image: "Office (6).jpg",
+                    reviews: 2,
+                    rating: 2
                 },
                 {
                     id: 25,
-                    name: "naimah jewels 5",
-                    price: "KSh 5,000",
-                    image: "/jewel/jewel (5).jpeg",
-                    reviews: 4,
-                    rating: 4
+                    name: "White Office chair",
+                    price: "KSh 2,100",
+                    image: "Office (7).jpg",
+                    reviews: 2,
+                    rating: 2
                 },
                 {
                     id: 26,
-                    name: "naimah jewels 6",
-                    price: "KSh 3,000",
-                    image: "/jewel/jewel (6).jpeg",
-                    reviews: 4,
-                    rating: 4
-                },
+                    name: "Purple ",
+                    price: "KSh 2,300",
+                    image: "Office (9).jpg",
+                    reviews: 2,
+                    rating: 2
+                }
+
+            ]
+        },
+        {
+            title: "OUTDOOR",
+            products: [
                 {
                     id: 27,
-                    name: "naimah jewels 7",
-                    price: "KSh 5,000",
-                    image: "/jewel/jewel (7).jpeg",
+                    name: "swing outdoor",
+                    price: "KSh 3,200",
+                    image: "Outdoor (1).jpg",
                     reviews: 4,
                     rating: 4
                 },
                 {
                     id: 28,
-                    name: "naimah jewels 8",
-                    price: "KSh 4,300",
-                    image: "/jewel/jewel (4).jpeg",
-                    reviews: 4,
-                    rating: 4
+                    name: "Swing outdoor",
+                    price: "KSh 3,500",
+                    image: "Outdoor (2).jpg",
+                    reviews: 5,
+                    rating: 5
                 },
+                {
+                    id: 29,
+                    name: "Wooden swing outdoor",
+                    price: "KSh 3,000",
+                    image: "Outdoor (3).jpg",
+                    reviews: 3,
+                    rating: 3
+                }
             ]
         }
     ];
 
     const currentCollections = isFullView
-        ? collections.filter(c => c.title.toLowerCase().replace(/\s+/g, '-') === collectionName)
-        : (titles ? collections.filter(c => titles.includes(c.title)) : collections);
+    ? collections.filter(c => c.title.toLowerCase().replace(/\s+/g, '-') === collectionName)
+    : (titles ? collections.filter(c => titles.includes(c.title)) : collections);
 
     const addToCart = (product) => {
         const existingCartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
@@ -290,7 +347,7 @@ function Collection({ titles, isFullView = false }) {
         if (existingItemIndex !== -1) {
             existingCartItems[existingItemIndex].quantity += 1;
         } else {
-            existingCartItems.push({...product, quantity: 1});
+            existingCartItems.push({ ...product, quantity: 1 });
         }
 
         localStorage.setItem('cartItems', JSON.stringify(existingCartItems));
@@ -301,26 +358,21 @@ function Collection({ titles, isFullView = false }) {
 
     return (
         <div className="collections-container">
-          {currentCollections.map(collection => (
-            <div key={collection.title} id={collection.title.toLowerCase().replace(/\s+/g, '-')} className="collection-section">
-              <h2 className="collection-title">{collection.title}</h2>
-              <ProductLayout
-                products={isFullView ? collection.products : collection.products.slice(0, 8)}
-                expanded={isFullView}
-                addToCart={addToCart}
-              />
-              {!isFullView && (
-                <Link
-                    to={`/collection/${collection.title.toLowerCase().replace(/\s+/g, '-')}`}
-                    className="view-all-btn-link"
-                >
-                    <button className="view-all-btn">View All</button>
-                </Link>
-              )}
-            </div>
-          ))}
+            {currentCollections.map((collection, index) => (
+                <div key={collection.title} id={collection.title.toLowerCase().replace(/\s+/g, '-')} className="collection-section">
+                    <h2 className="collection-title">{collection.title}</h2>
+                    <ProductLayout
+                        products={isFullView ? collection.products : collection.products.slice(0, 10)}
+                        expanded={isFullView}
+                        addToCart={addToCart}
+                    />
+                    {/* Add a thin line after each collection */}
+                    {index < currentCollections.length - 1 && <hr className="collection-divider" />}
+                </div>
+            ))}
         </div>
     );
 }
 
 export default Collection;
+

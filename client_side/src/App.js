@@ -34,7 +34,7 @@ function App() {
             <Route path="/" element={
               <>
                 <HeroSection />
-                <Collection titles={["Everyday Abayas", "Summer Collection", "Professional Abayas", "Occasion Abayas", "Jewelry"]} />
+                <Collection titles={["LIVING ROOM", "BEDROOM", "HOME DECOR", "OFFICE", "OUTDOOR"]} />
               </>
             } />
             <Route path="/collection/:collectionName" element={<Collection isFullView={true} />} />

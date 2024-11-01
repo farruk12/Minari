@@ -3,9 +3,9 @@ import { motion } from 'framer-motion';
 import './HeroSection.css';
 
 const images = [
-    '/hero page image.png',
-    '/hero 3.png',
-    '/Khimar collection🤍.png',
+    '/Hero L.png',
+    '/Hero B.png',
+    '/Hero O.png'
 ];
 
 function HeroSection() {
@@ -26,12 +26,6 @@ function HeroSection() {
             <section className="hero-section">
                 <div className="carousel-container">
                     <img src={images[currentImageIndex]} alt="Hero" className="hero-image" />
-                </div>
-                <div className="hero-content">
-                    <h1 className="hero-title">Discover Elegance</h1>
-                    <a href="#Shop Now">
-                        <button className="shop-button">Shop Now</button>
-                    </a>
                 </div>
             </section>
             <section className="About">
