@@ -2,6 +2,13 @@ body {
     background-color: white;
 }
 
+.collection-divider {
+    border: none;
+    border-top: 1.5px solid #ada4a4; /* Adjust color and thickness as needed */
+    margin: 25px 0; /* Adjust spacing as needed */
+}
+
+
 .product-layout, .collections-container {
     padding: 20px;
     text-align: left;
@@ -144,27 +151,6 @@ h2 {
 .product-description {
     margin-bottom: 20px;
     line-height: 1.6;
-}
-
-.size-chart {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
-}
-
-.size-chart th, .size-chart td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
-    font-size: 0.9em;
-}
-
-.size-chart th {
-    background-color: #f2f2f2;
-}
-
-.size-chart tbody tr:nth-child(odd) {
-    background-color: #f9f9f9;
 }
 
 .sidebar-content {

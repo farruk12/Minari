@@ -33,11 +33,11 @@ const NavMenu = () => {
       </div>
       <nav className={`nav-menu ${isOpen ? 'open' : ''}`}>
         <ul className="menu-items">
-          <li><a onClick={() => handleClick('everyday-abayas')}>Everyday Abayas</a></li>
-          <li><a onClick={() => handleClick('summer-collection')}>Summer Abayas</a></li>
-          <li><a onClick={() => handleClick('professional-abayas')}>Professional Abayas</a></li>
-          <li><a onClick={() => handleClick('occasion-abayas')}>Occasion Abayas</a></li>
-          <li><a onClick={() => handleClick('jewelry')}>Jewelry</a></li>
+          <li><a onClick={() => handleClick('LIVING ROOM')}>LIVING ROOM</a></li>
+          <li><a onClick={() => handleClick('BEDROOM')}>BEDROOM</a></li>
+          <li><a onClick={() => handleClick('HOME DECOR')}>HOME DECOR</a></li>
+          <li><a onClick={() => handleClick('OFFICE')}>OFFICE</a></li>
+          <li><a onClick={() => handleClick('OUTDOOR')}>OUTDOOR</a></li>
         </ul>
       </nav>
     </>

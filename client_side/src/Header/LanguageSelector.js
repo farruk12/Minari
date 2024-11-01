@@ -5,7 +5,7 @@ import './LanguageSelector.css';
 function LanguageSelector() {
   return (
     <div className="language-selector">
-      <h1>MINARI HOMES</h1>
+      
     </div>
   );
 }

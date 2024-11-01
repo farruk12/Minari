@@ -1,12 +1,17 @@
 .logo {
     display: flex;
     justify-content: center;
+    text-decoration: none;
 }  
 
+.logo a {
+    text-decoration: none;
+}
 
 .logo h1 {
-    font-family: 'Avenir', 'Proxima Nova', sans-serif;
-    font-weight: bold;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: normal;
+    font-stretch: semi-expanded;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     justify-content: center;

@@ -11,11 +11,5 @@
     font-weight: bold;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-
-}
-
-.flag-icon {
-    width: 50px;
-    height: 40px;
-    margin-right: 8px;
+    font-size: 20px;
 }
