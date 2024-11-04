@@ -102,6 +102,35 @@
   color: #333;
 }
 
+/* Icons.css */
+
+.icons-container {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adjust spacing as needed */
+}
+
+.chat-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #333; /* Customize icon color */
+}
+
+.chat-icon:hover {
+  color: #555; /* Change color on hover */
+}
+
+/* Add styles to position the Chatbot component as needed */
+.chatbot-container {
+  position: fixed;
+  bottom: 80px; /* Adjust as needed */
+  right: 20px;
+  z-index: 1000;
+}
+
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .search-overlay {

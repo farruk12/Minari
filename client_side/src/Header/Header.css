@@ -8,10 +8,19 @@
   border-bottom: 1px solid rgb(203, 203, 203);
 }
 
+/* Center Section - Logo */
+.center-section {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  text-align: center;
+}
+
 .logo img {
   height: 40px;
 }
 
+/* Currency Selector */
 .currency-selector select {
   padding: 0.5rem;
   border: 1px solid #e0e0e0;
@@ -19,22 +28,46 @@
   font-size: 0.9rem;
 }
 
-.icons {
+/* Icons Section */
+.icons-section {
   display: flex;
   gap: 1rem;
+  align-items: center;
 }
 
+/* Individual Icon Styling */
 .icon {
   font-size: 1.2rem;
   color: #333;
   cursor: pointer;
 }
 
-/* Media Query for Mobile Devices */
+.chat-icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.chat-icon-button {
+  font-size: 1.2rem;
+  color: #333;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.chat-icon-button:focus {
+  outline: none;
+}
+
+/* Mobile Responsiveness */
 @media (max-width: 768px) {
   .header {
       justify-content: space-between;
       padding: 0.5rem;
+  }
+
+  .center-section {
+      flex: 2;
   }
 
   .logo img {
@@ -45,20 +78,15 @@
       display: none; /* Hide currency selector on mobile */
   }
 
-  .icons {
+  .icons-section {
       gap: 0.5rem;
   }
 
-  .icon {
+  .icon, .chat-icon-button {
       font-size: 4.5rem;
   }
 
-  .search-icon, .profile-icon, .cart-icon {
-      font-size: 54px;
-  }
-
   .header .logo {
-      flex: 2;
       text-align: center;
   }
 

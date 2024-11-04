@@ -1,4 +1,3 @@
-// Chatbot.js
 import React, { useState } from "react";
 import ChatInput from "./ChatInput";
 import ChatOutput from "./ChatOutput";
@@ -22,7 +21,8 @@ function Chatbot() {
     };
 
     return (
-        <div className="chatbot">
+        <div className="chatbot-container">
+            <div className="chatbot-header">Minari Homes</div>
             <ChatOutput messages={messages} />
             <ChatInput onSendMessage={handleSendMessage} />
         </div>

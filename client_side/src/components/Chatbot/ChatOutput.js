@@ -1,4 +1,3 @@
-// ChatOutput.js
 import React from "react";
 
 function ChatOutput({ messages }) {
@@ -14,4 +13,3 @@ function ChatOutput({ messages }) {
 }
 
 export default ChatOutput;
-
