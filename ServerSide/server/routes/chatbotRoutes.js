@@ -6,4 +6,3 @@ const { getResponse } = require("../chatbot/chatbotController");
 router.post("/chatbot", getResponse);
 
 module.exports = router;
-
