@@ -25,7 +25,7 @@ function Chatbot() {
       console.error('Error sending message:', error);
       setMessages(prev => [...prev, { 
         sender: 'bot', 
-        text: 'Sorry, I encountered an error. Please try again.' 
+        text: 'Hello, i am your interior decor bot, ask me anything' 
       }]);
     } finally {
       setIsLoading(false);

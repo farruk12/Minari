@@ -33,10 +33,13 @@ const NavMenu = () => {
       </div>
       <nav className={`nav-menu ${isOpen ? 'open' : ''}`}>
         <ul className="menu-items">
-          <li><a onClick={() => handleClick('LIVING ROOM')}>LIVING ROOM</a></li>
-          <li><a onClick={() => handleClick('BEDROOM')}>BEDROOM</a></li>
-          <li><a onClick={() => handleClick('HOME DECOR')}>HOME DECOR</a></li>
-          <li><a onClick={() => handleClick('OFFICE')}>OFFICE</a></li>
+          <li><a onClick={() => handleClick('living-room')}>LIVING ROOM</a></li>
+          <li><a onClick={() => handleClick('bedroom')}>BEDROOM</a></li>
+          <li><a onClick={() => handleClick('home-decor')}>HOME DECOR</a></li>
+          <li><a onClick={() => handleClick('office')}>OFFICE</a></li>
+          <li><a onClick={() => handleClick('outdoor')}>OUTDOOR</a></li>
+          <li><a onClick={() => handleClick('carpets')}>CARPETS & MATS</a></li>
+          <li><a onClick={() => handleClick('OUTDOOR')}>DISPLAY & VASES</a></li>
           <li><a onClick={() => handleClick('OUTDOOR')}>OUTDOOR</a></li>
         </ul>
       </nav>

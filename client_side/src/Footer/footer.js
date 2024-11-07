@@ -1,59 +1,32 @@
+// src/components/Footer.js
 import React from 'react';
 import './footer.css';
 
-const Footer = () => {
+function footer() {
   return (
     <footer className="footer">
-      <div className="footer-container">
-        <div className="footer-logo">
-          <h1>MINARI HOMES</h1>
+      <div className="footer-content">
+        <h2 className="footer-logo">Minari Homes</h2>
+        <p className="footer-tagline">Bringing warmth and style to your space</p>
+
+        <ul className="footer-links">
+          <li><a href="/about">About Us</a></li>
+          <li><a href="/services">Our Services</a></li>
+          <li><a href="/contact">Contact</a></li>
+          <li><a href="/faq">FAQ</a></li>
+        </ul>
+
+        <div className="footer-socials">
+          <a href="https://facebook.com" aria-label="Facebook" className="social-icon">📘</a>
+          <a href="https://instagram.com" aria-label="Instagram" className="social-icon">📷</a>
+          <a href="https://twitter.com" aria-label="Twitter" className="social-icon">🐦</a>
+          <a href="https://pinterest.com" aria-label="Pinterest" className="social-icon">📌</a>
         </div>
 
-        <div className="footer-links">
-          <h3>Shop All</h3>
-          <ul>
-            <li><a href="#summer-collection">Summer Abayas</a></li>
-            <li><a href="#everyday-abayas">Everyday Abayas</a></li>
-            <li><a href="#occasion-abayas">Occasion Abayas</a></li>
-            <li><a href="#professional-abayas">Professional Abayas</a></li>
-            <li><a href="#jewelry">Jewelry</a></li>
-          </ul>
-        </div>
-
-        <div className="footer-section">
-          <h3>Customer Care</h3>
-          <ul>
-            <li><a href="/size-guide">Size Guide</a></li>
-            <li><a href="/shipping">Shipping Information</a></li>
-            <li><a href="/returns">Returns Policy</a></li>
-            <li><a href="/faq">FAQ</a></li>
-            <li><a href="/contact">Contact Us</a></li>
-          </ul>
-        </div>
-
-        <div className="footer-social">
-          <a href="https://twitter.com/yourbrand" aria-label="Twitter">
-            <i className="fab fa-twitter"></i>
-          </a>
-          <a href="https://facebook.com/yourbrand" aria-label="Facebook">
-            <i className="fab fa-facebook-f"></i>
-          </a>
-          <a href="https://linkedin.com/company/yourbrand" aria-label="LinkedIn">
-            <i className="fab fa-linkedin-in"></i>
-          </a>
-        </div>
-      </div>
-
-      <div className="footer-bottom">
-        <p>&copy; 2024 Noblenoor. All rights reserved.</p>
-        <div className="payment-icons">
-          <span>Visa</span>
-          <span>MasterCard</span>
-          <span>PayPal</span>
-        </div>
+        <p className="footer-copyright">© 2024 Minari Homes. All Rights Reserved.</p>
       </div>
     </footer>
   );
-};
+}
 
-export default Footer;
+export default footer;

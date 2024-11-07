@@ -107,7 +107,7 @@
 .icons-container {
   display: flex;
   align-items: center;
-  gap: 10px; /* Adjust spacing as needed */
+  gap: 20px; /* Adjust spacing as needed */
 }
 
 .chat-icon {
